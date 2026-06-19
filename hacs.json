@@ -1,0 +1,5 @@
+{
+  "name": "AdGuard DNS Control",
+  "domains": ["adguard_dns"],
+  "content_in_root": false
+}
