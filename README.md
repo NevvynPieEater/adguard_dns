@@ -1,21 +1,60 @@
-# AdGuard DNS Control (Home Assistant)
+# AdGuard DNS Control
 
 Control AdGuard DNS protection per device from Home Assistant.
+
+---
 
 ## Features
 
 - Enable / Disable DNS protection
-- Temporary disable (30-minute bypass)
-- Device selection support
-- Works with AdGuard DNS API
+- Temporary bypass (30 minutes)
+- Config flow (UI setup)
+- Supports multiple devices
+
+---
 
 ## Installation (HACS)
 
-1. Add this repo as a custom repository
-2. Install “AdGuard DNS Control”
-3. Restart Home Assistant
-4. Add integration
+[![HACS](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?logo=home-assistant&logoColor=white)](https://hacs.xyz/)
+
+1. Open HACS
+2. Go to Integrations
+3. Add this repository as a custom repo
+4. Install "AdGuard DNS Control"
+5. Restart Home Assistant
+
+---
 
 ## Configuration
 
-- Requires an AdGuard DNS API key
+Add the integration from:
+
+Settings → Devices & Services → Add Integration
+
+You will need:
+
+- AdGuard DNS API key
+
+---
+
+## Links
+
+- 🏠 [Home Assistant](https://www.home-assistant.io/)
+- 📦 [HACS](https://hacs.xyz/)
+- 📖 [Documentation](https://github.com/NevvynPieEater/adguard_dns)
+- 🐞 [Report an Issue](https://github.com/NevvynPieEater/adguard_dns/issues)
+
+---
+
+## Support / Donate
+
+If you find this useful:
+
+☕ Buy me a coffee  
+https://buymeacoffee.com/YOURNAME
+
+---
+
+## Disclaimer
+
+This project is not affiliated with AdGuard.
