@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to AdGuard DNS",
+        "description": "Enter your AdGuard DNS API key.",
+        "data": {
+          "api_key": "API key",
+          "mode": "Entity mode"
+        }
+      },
+      "device": {
+        "title": "Select device",
+        "description": "Choose the device to expose if using single-device mode.",
+        "data": {
+          "device_id": "Device"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error",
+      "no_devices": "No devices were returned by the API"
+    },
+    "abort": {
+      "already_configured": "This AdGuard DNS integration is already configured"
+    }
+  }
+}
