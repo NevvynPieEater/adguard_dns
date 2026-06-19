@@ -11,6 +11,8 @@ _LOGGER = logging.getLogger(__name__)
 
 
 class AdGuardDnsCoordinator(DataUpdateCoordinator):
+    """Data update coordinator for AdGuard DNS."""
+
     def __init__(self, hass, api) -> None:
         super().__init__(
             hass,

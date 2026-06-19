@@ -16,6 +16,8 @@ SERVICE_DISABLE_FOR_30_MINUTES = "disable_for_30_minutes"
 ATTR_ENTRY_ID = "entry_id"
 ATTR_DEVICE_ID = "device_id"
 
+DEFAULT_SCAN_INTERVAL = 60
+
 API_BASE_URL = "https://api.adguard-dns.io/oapi/v1"
 
 PLATFORMS = ["switch"]

@@ -1,10 +1,12 @@
 {
   "domain": "adguard_dns",
-  "name": "AdGuard DNS",
-  "version": "0.1.0",
-  "documentation": "https://adguard-dns.io/kb/private-dns/api/overview/",
-  "issue_tracker": "https://github.com/AdguardTeam/KnowledgeBaseDNS/issues",
-  "config_flow": true,
+  "name": "AdGuard DNS Control",
+  "version": "1.0.0",
+  "documentation": "https://github.com/NevvynPieEater/adguard_dns",
+  "issue_tracker": "https://github.com/NevvynPieEater/adguard_dns/issues",
+  "codeowners": ["@NevvynPieEater"],
   "requirements": [],
-  "codeowners": []
+  "dependencies": [],
+  "config_flow": true,
+  "iot_class": "cloud_polling"
 }
