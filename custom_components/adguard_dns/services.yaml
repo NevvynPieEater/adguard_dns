@@ -1,44 +1,11 @@
 enable_protection:
   name: Enable protection
   description: Enable AdGuard DNS protection
-  fields:
-    entry_id:
-      name: Entry ID
-      description: Optional config entry ID
-      selector:
-        text: {}
-    device_id:
-      name: Device ID
-      description: Optional device ID
-      selector:
-        text: {}
 
 disable_protection:
   name: Disable protection
   description: Disable AdGuard DNS protection
-  fields:
-    entry_id:
-      name: Entry ID
-      description: Optional config entry ID
-      selector:
-        text: {}
-    device_id:
-      name: Device ID
-      description: Optional device ID
-      selector:
-        text: {}
 
 disable_for_30_minutes:
   name: Disable for 30 minutes
-  description: Disable protection temporarily
-  fields:
-    entry_id:
-      name: Entry ID
-      description: Optional config entry ID
-      selector:
-        text: {}
-    device_id:
-      name: Device ID
-      description: Optional device ID
-      selector:
-        text: {}
+  description: Temporarily disable protection
