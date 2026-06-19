@@ -51,7 +51,7 @@ You will need:
 If you find this useful:
 
 ☕ Buy me a coffee  
-https://buymeacoffee.com/nevvyn
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-yellow.svg?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/nevvyn)
 
 ---
 
